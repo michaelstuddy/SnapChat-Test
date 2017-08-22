@@ -14,6 +14,9 @@
 		B071D3081F46773A009515C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B071D3071F46773A009515C9 /* Assets.xcassets */; };
 		B071D30B1F46773A009515C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B071D3091F46773A009515C9 /* LaunchScreen.storyboard */; };
 		B071D3131F4678C6009515C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B071D3121F4678C6009515C9 /* GoogleService-Info.plist */; };
+		B08235C21F4B1E5D00580411 /* SnapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08235C11F4B1E5D00580411 /* SnapsViewController.swift */; };
+		B08235C41F4BA13C00580411 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08235C31F4BA13C00580411 /* ImageViewController.swift */; };
+		B08235C61F4CF2B700580411 /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08235C51F4CF2B700580411 /* SelectUserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		B071D30A1F46773A009515C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B071D30C1F46773A009515C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B071D3121F4678C6009515C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B08235C11F4B1E5D00580411 /* SnapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapsViewController.swift; sourceTree = "<group>"; };
+		B08235C31F4BA13C00580411 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		B08235C51F4CF2B700580411 /* SelectUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 			children = (
 				B071D3001F46773A009515C9 /* AppDelegate.swift */,
 				B071D3021F46773A009515C9 /* SignInViewController.swift */,
+				B08235C11F4B1E5D00580411 /* SnapsViewController.swift */,
+				B08235C31F4BA13C00580411 /* ImageViewController.swift */,
+				B08235C51F4CF2B700580411 /* SelectUserViewController.swift */,
 				B071D3041F46773A009515C9 /* Main.storyboard */,
 				B071D3071F46773A009515C9 /* Assets.xcassets */,
 				B071D3091F46773A009515C9 /* LaunchScreen.storyboard */,
@@ -229,6 +238,9 @@
 			files = (
 				B071D3031F46773A009515C9 /* SignInViewController.swift in Sources */,
 				B071D3011F46773A009515C9 /* AppDelegate.swift in Sources */,
+				B08235C61F4CF2B700580411 /* SelectUserViewController.swift in Sources */,
+				B08235C41F4BA13C00580411 /* ImageViewController.swift in Sources */,
+				B08235C21F4B1E5D00580411 /* SnapsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
